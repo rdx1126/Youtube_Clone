@@ -1,7 +1,6 @@
 import { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
 import { Box } from "@mui/material";
-import VideoCard from "./VideoCard";
 import ChannelCard from "./ChannelCard";
 import { fetchFromAPI } from "../Utils/fetchFromAPI";
 import Videos from "./Videos";
